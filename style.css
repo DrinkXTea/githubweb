@@ -5,10 +5,7 @@
 *:before {
 	box-sizing: border-box;
 }
-:rood {
 
-	--c-gray-200: red;
-}
 :root {
 
 	--c-gray-200: #fcfdfe;
