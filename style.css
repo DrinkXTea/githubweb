@@ -7,9 +7,10 @@
 }
 
 :root {
-
+	--c-gray-100: #fbf8f2;
 	--c-gray-200: #fcfdfe;
 	--c-gray-300: #e9ebec;
+	--c-gray-400: #e3e4ea;
 	--c-gray-500: #5f5f5f;
 	--c-gray-900: #1d1d1d;
 	--c-blue-300: #a8dee2;
@@ -18,9 +19,18 @@
 	--c-green-300: #bad5ca;
 	--c-red-500: #ea605e;
 	--c-yellow-300: #f8e0b1;
-
+	--c-yellow-500: #f9bc73;
 
 	--rotation: -3deg;
+}
+
+body {
+	font-family: "Urbanist", sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	background-color: var(--c-gray-400);
 }
 
 img {
@@ -34,7 +44,7 @@ button {
 }
 
 .phone {
-	width: 600px;
+	width: 460px;
 	border-radius: 25px;
 	overflow: hidden;
 	padding: 2rem;
