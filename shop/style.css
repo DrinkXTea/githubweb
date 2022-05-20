@@ -75,6 +75,17 @@ button {
 	border-radius: 15px;
   	text-decoration: none;
 }
+.header-logo1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	background-color: var(--c-blue-300);
+	border: 2px solid var(--c-gray-900);
+	border-radius: 15px;
+  	text-decoration: none;
+}
 	span {
 		display: block;
 		width: 12px;
