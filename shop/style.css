@@ -73,12 +73,8 @@ button {
 	background-color: var(--c-blue-300);
 	border: 2px solid var(--c-gray-900);
 	border-radius: 15px;
-	div {
-		display: flex;
-		flex-wrap: wrap;
-		width: 24px;
-		height: 24px;
-	}
+  	text-decoration: none;
+}
 	span {
 		display: block;
 		width: 12px;
